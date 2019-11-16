@@ -1,0 +1,93 @@
+
+.navBar {
+  height: 25%;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+input {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 30%;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 25px;
+  background-color: #F1F3F4;
+  background-image: url('google-logo-microphone.png');
+  background-size: 15px 20px;
+  background-position: 97% 45%;
+  background-repeat: no-repeat;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input:hover {
+  background-color: rgb(233, 233, 233)
+}
+
+.bookmark {
+  display: flex;
+  justify-content: center;
+  background-color: White;
+  margin-top: 3%;
+}
+
+.bookmark > div {
+  background-color: #f1f1f1;
+  width: 30px;
+  margin: 3px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  text-decoration: none;
+}
+div.polaroid {
+  width: 10%;
+  background-color:white;
+  margin-bottom: 0px;
+}
+
+div.caption {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.polaroid > a {
+  text-decoration: none;
+  color:rgb(65, 65, 65);
+  padding: 30px;
+}
+
+div.polaroid:hover {
+  background-color: rgb(233, 233, 233);
+}
